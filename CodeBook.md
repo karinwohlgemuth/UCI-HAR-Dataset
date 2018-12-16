@@ -48,12 +48,12 @@ The table is tidy because it contains one observation in each row, one variable 
 
 * activity = one of the following 6 activities observed:
 
-walking
-walking.upstairs
-walking.downstairs
-sitting
-standing
-laying 
+    * walking
+    * walking.upstairs
+    * walking.downstairs
+    * sitting
+    * standing
+    * laying 
 
 * timeBodyAcc.mean.X = average (arithmetic mean) of the time domain signal of the body acceleration mean along the x-axis in radians / second
 * timeBodyAcc.mean.Y = average (arithmetic mean) of the time domain signal of the body acceleration mean along the y-axis in radians / second
