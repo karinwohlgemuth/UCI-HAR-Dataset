@@ -67,15 +67,15 @@ extract <- c(1,2,means,stds)
 subset <- data[,extract]
 
 # create a summary with the average of each variable for each activity/subject combination
-# write the tidy dataset to a comma-delimited file
+# write the tidy dataset to a text file
 
 
 library(dplyr)
 subset <- group_by(subset, activity, subject)
 tidy <- subset %>% summarise_all(mean)
 
-write.table(tidy, file = "UCI HAR Dataset/final tidy dataset.csv", sep = ",",
-            row.names = FALSE, col.names = TRUE)
+write.table(tidy, file = "UCI HAR Dataset/final tidy dataset.csv",
+            row.names = FALSE)
 
 # clean up: remove temporary data
 
