@@ -7,14 +7,14 @@ This repo contains the files for the "Getting and Cleaning Data Course Project."
 The raw data for the project is from the UCI Machine Learning Repository, namely the "Human Activity Recognition (HAR) Using Smartphones Data Set."  Detailed information about the source is found here:
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
-More information on the original study and the data are also found in the readme.txt and features_info.txt files that are part of the dataset.
+More information on the original study and the data are also found in the *readme.txt* and *features_info.txt* files that are part of the dataset.
 
 ## CONTENTS
 
 This repo contains the following files:
 
 * R script that converts the raw data into a tidy dataset
-* Codebook that details the data and all variables
+* CodeBook that details the data and all variables
 * ReadMe that describes the analysis process
 * Tidy dataset
 
@@ -33,7 +33,7 @@ The script contains the following steps:
 7. Identify the columns that contain any mean or standard deviation data, and create a subset with only those columns.
 8. Create a tidy data file that contains the means of the selected columns, summarized by activity and subject.
 
-**Please note:**  I added labels to the test and training data BEFORE merging the two files.  That's different from the project instructions but I believe it is actually BETTER practice, to make sure that data is labeled immediately, before making any other changes (such as merging with other data).
+**_Please note:_**  I added labels to the test and training data BEFORE merging the two files.  That's different from the project instructions but I believe it is actually BETTER practice, to make sure that data is labeled immediately, before making any other changes (such as merging with other data).
 
 ## TIDY FILE
 
