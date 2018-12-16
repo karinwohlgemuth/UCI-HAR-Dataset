@@ -2,9 +2,9 @@
 
 ## PROJECT DESCRIPTION
 
-This codebook contains the detail information about the tidy dataset created for the "Getting and Cleaning Data Course Project."
+This codebook contains the detail about the tidy dataset created for the "Getting and Cleaning Data Course Project."
 
-For more complete information on the original study, please refer to the source info in the README file.
+For more complete information on the original study, please refer to the link in the ReadMe file.
 
 ## DATA SOURCE
 
@@ -35,7 +35,7 @@ From the raw data, the tidy data was created using the `run_analysis.r` script.
 
 The script downloads the raw data, reads and combines the test and training datasets, appends subject number and activities, and creates valid, descriptive labels for all items.  A subset of the data with mean and standard deviation data is then summarized by activity and subject.
 
-A step-by-step description of the process is in the accompanying ReadMe file, as well as in the comments included in the script.
+A step-by-step description of the process is in the accompanying *ReadMe.txt* file, as well as in the comments included in the script.
 
 ## TIDY FILE
 
@@ -46,14 +46,14 @@ The table is tidy because it contains one observation in each row, one variable 
 
 * subject  = subject number (1-30) from the original study
 
-* activity = one of 6 activities observed
+* activity = one of the following 6 activities observed:
 
-.walking
-.walking.upstairs
-.walking.downstairs
-.sitting
-.standing
-.laying 
+walking
+walking.upstairs
+walking.downstairs
+sitting
+standing
+laying 
 
 * timeBodyAcc.mean.X = average (arithmetic mean) of the time domain signal of the body acceleration mean along the x-axis in radians / second
 * timeBodyAcc.mean.Y = average (arithmetic mean) of the time domain signal of the body acceleration mean along the y-axis in radians / second
