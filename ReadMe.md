@@ -42,4 +42,4 @@ The output of the script is a tidy dataset.  The format is "wide" = 180 rows by 
 * There is one variable in each column (the average of the 79 mean/std dev columns)
 * The activity labels and column names are descriptive and in proper format
 
-The script also writes the output to a csv file, but other file formats could be used.
+The script also writes the output to a text file.
