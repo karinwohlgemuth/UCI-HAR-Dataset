@@ -44,9 +44,9 @@ The table is tidy because it contains one observation in each row, one variable 
 
 ### VARIABLES IN THE TIDY DATASET
 
-* subject  = subject number (1-30) from the original study
+* subject = (INT) subject number (1-30) from the original study
 
-* activity = one of the following 6 activities observed:
+* activity = (CHAR) one of the following 6 activities observed:
 
     * walking
     * walking.upstairs
