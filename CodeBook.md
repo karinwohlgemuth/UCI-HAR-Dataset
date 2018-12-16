@@ -39,7 +39,7 @@ A step-by-step description of the process is in the accompanying *ReadMe.txt* fi
 
 ## TIDY FILE
 
-The final product of the script is a tidy data table with 180 rows and 82 columns (sometimes referred to as "wide" format), which is downloaded to the following file: `final tidy dataset.csv`.   
+The final product of the script is a tidy data table with 180 rows and 82 columns (sometimes referred to as "wide" format), which is downloaded to the following file: `final_tidy_dataset.txt`.   
 The table is tidy because it contains one observation in each row, one variable in each column, and descriptive and properly formatted labels.
 
 ### VARIABLES IN THE TIDY DATASET
