@@ -74,7 +74,7 @@ library(dplyr)
 subset <- group_by(subset, activity, subject)
 tidy <- subset %>% summarise_all(mean)
 
-write.table(tidy, file = "UCI HAR Dataset/final tidy dataset.csv",
+write.table(tidy, file = "UCI HAR Dataset/final_tidy_dataset.txt",
             row.names = FALSE)
 
 # clean up: remove temporary data
